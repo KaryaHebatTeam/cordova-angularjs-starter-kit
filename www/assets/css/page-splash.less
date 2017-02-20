@@ -1,0 +1,37 @@
+/////////////////////////////////////////////////////////////////////////////////////
+///
+/// PAGE SPLASH
+///
+/////////////////////////////////////////////////////////////////////////////////////
+
+#page-splash {
+	background: @color1;
+	position: relative;
+	
+	.title {
+		font-size: 24px;
+		color: white;
+		font-family: @font1;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.btn-menu {
+		position: absolute;
+		left: 50%;
+		top: 70%;
+		transform: translateX(-50%);
+		border: 2px solid white;
+		background: @color1;
+		color: white;
+		width: 70%;
+		padding: 16px;
+
+		&:active {
+			background: white;
+			color: @color1;
+		}
+	}
+}
