@@ -2,14 +2,20 @@
 	<header>
 		<div class="header-button left">
 			<i class="icon ion-chevron-left"></i>
+			<a href="#"></a>
 		</div>
 		<h1 class="text-center">Friend List</h1>
 		<div class="header-button right">
 			<i class="icon ion-plus"></i>
+			<a href=""></a>
 		</div>
 	</header>
-	<br><br>
-	<div class="friend" ng-repeat="friend in friends">
+	<br>
+	<div class="search-box">
+		<input type="search" ng-model="search" class="form-control" placeholder="Search">
+	</div>
+	<br>
+	<div class="friend" ng-repeat="friend in friends | filter:search">
 		<div class="photo">
 			<img ng-src="assets/img/photo/{{ friend.photo }}">
 		</div>
