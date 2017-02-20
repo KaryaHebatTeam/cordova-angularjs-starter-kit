@@ -1,0 +1,21 @@
+<div id="page-friend-list" class="base-page" ng-controller="FriendListController">
+	<header>
+		<div class="header-button left">
+			<i class="icon ion-chevron-left"></i>
+		</div>
+		<h1 class="text-center">Friend List</h1>
+		<div class="header-button right">
+			<i class="icon ion-plus"></i>
+		</div>
+	</header>
+	<br><br>
+	<div class="friend" ng-repeat="friend in friends">
+		<div class="photo">
+			<img ng-src="assets/img/photo/{{ friend.photo }}">
+		</div>
+		<div class="detail">
+			<p class="name">{{ friend.name }}</p>
+			<p class="number">{{ friend.number }}</p>
+		</div>
+	</div>
+</div>
