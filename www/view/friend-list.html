@@ -15,7 +15,7 @@
 		<input type="search" ng-model="search" class="form-control" placeholder="Search">
 	</div>
 	<br>
-	<div class="friend" ng-repeat="friend in friends | filter:search">
+	<div class="friend animate-friend" ng-repeat="friend in friends | filter:search as total">
 		<div class="photo">
 			<img ng-src="assets/img/photo/{{ friend.photo }}">
 		</div>
@@ -24,4 +24,5 @@
 			<p class="number">{{ friend.number }}</p>
 		</div>
 	</div>
+	<p class="text-center" ng-if="total == 0"><b>You don't have a friends !</b></p>
 </div>
