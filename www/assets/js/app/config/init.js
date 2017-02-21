@@ -5,6 +5,5 @@
 */
 angular.module('Starter', [
 	'ngRoute',
-	'ngAnimate',
-	'angularMoment'
+	'ngAnimate'
 ]);
