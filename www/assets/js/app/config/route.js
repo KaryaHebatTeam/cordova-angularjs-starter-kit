@@ -11,5 +11,6 @@ function Route($routeProvider, $locationProvider) {
 		})
 		.when('/friend-list', {
 			templateUrl: 'view/friend-list.html'
-		});
+		})
+		.otherwise({redirectTo: '/'});
 }
