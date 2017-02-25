@@ -1,6 +1,12 @@
 #
 Cordova AngularJS Starter Kit
 
+![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/1.png)
+
+![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/home.png)
+
+![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/friend-list.png)
+
 **Repository**
 [https://github.com/KaryaHebatTeam/cordova-angularjs-starter-kit](https://github.com/KaryaHebatTeam/cordova-angularjs-starter-kit)
 
@@ -14,7 +20,7 @@ Cordova AngularJS Starter Kit
 
 You can see the structure folder inside **www** containing resources below
 
-![](/assets/1.png)
+![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/1.png)
 
 #### index.html
 Main file which call all Javascript resources like init, library, controller, and others.
