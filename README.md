@@ -1,8 +1,6 @@
 #
 Cordova AngularJS Starter Kit
 
-![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/1.png)
-
 ![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/home.png)
 
 ![](https://karya-hebat-team.gitbooks.io/cordova-angularjs-starter-kit/content/assets/friend-list.png)
